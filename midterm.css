@@ -1,0 +1,279 @@
+html
+{
+    box-sizing:border-box;
+	font-family: fantasy;
+	background-color:papayawhip;
+}
+
+html body
+{
+	font-size:15px;	
+}
+
+h1
+{
+	font-size:3rem;	
+}
+
+h2
+{
+	font-size:2rem;
+	margin:0px;
+	padding:0px;
+}
+
+h3
+{
+	font-size:1.5rem;
+	margin:0px;
+}
+
+img
+{
+	max-width:100%;
+}
+
+.masthead
+{
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+	background-color:orange;
+	border:10px solid green;
+	border-bottom:5px solid green;
+	
+}
+
+.wrapper
+{
+	margin-left:0 auto;
+	margin-right:0 auto;
+	width:100%;
+	max-width:35rem;
+	background-color:green;
+}
+
+.mainnav
+{
+	border:5px solid green;
+	border-left:10px solid green;
+	border-right:10px solid gold;
+}
+
+
+
+.mainnav a:hover, .mainnav a:active
+{
+	background-color:peru;
+	display:block;
+	color:yellow;
+}
+
+.mainnav ul
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+.mainnav li
+{
+	text-decoration:none;
+	text-align:center;
+	list-style:none;
+
+}
+
+.content
+{
+	border:5px solid green;
+	border-left:10px solid green;
+	border-right:10px solid green;
+	box-sizing:border-box;
+}
+
+.primary p
+{
+	padding:10px 0px 10px 0px;
+	margin:0px;
+}
+
+.primary h3
+{
+	padding:20px 0px 10px 0px;
+}
+
+.side
+{
+	border:5px solid green;
+	border-left:10px solid green;
+	border-right:10px solid green;
+	background-color:antiquewhite;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+.side p
+{
+	padding:10px 0px 20px 0px;
+	margin:0px;
+}
+
+.footer
+{
+	background-color:#70767F;
+	color:#FFFFFF;
+	border-top:5px solid #B3BCCC;
+}
+
+.footer p
+{
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+.left
+{
+	float:left;
+	padding-bottom:10px;
+	padding-right:10px;
+
+}
+
+.right
+{
+	float:right;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+@media all and (min-width:35rem) and (max-width:60rem)
+{
+	img
+	{
+		max-width:100%;
+	}
+	
+	.wrapper
+	{
+		max-width:45rem;
+		margin:auto;	
+	}
+	
+	.mainnav li
+	{
+		float:left;
+		width:25%;
+	}
+	
+	.mainnav a, .mainnav a:link, .mainnav a:visited
+	{
+		font-size:1.0rem;
+	}
+	
+	.masthead
+	{
+		border:5px solid #B3BCCC;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		padding-top:5px;
+	}
+	
+	.mainnav
+	{
+		border:5px solid grey;
+		border-left:none;
+		border-right:none;
+	}
+	
+	.content
+	{
+		width:65%;
+		float:left;
+		border-width:5px;
+		border-left-width:10px
+	}
+	
+	.side
+	{
+		width:37.5%;
+		float:right;
+		border-width:5px;
+		border-right-width:10px;
+		border-top-width:10px;
+	}
+	
+	.footer
+	{
+		clear:both;
+	}
+	
+}
+
+
+@media all and (min-width:60rem)
+{
+	img
+	{
+		max-width:100%;
+	}
+	
+	.wrapper
+	{
+		max-width:1600px;
+	}
+	
+	.mainnav
+	{
+		width:25%;
+		height:1000px;
+		float:left;
+		background-position:left;
+		background-size:100%;
+		background-repeat:no-repeat;
+		
+	}
+	
+	.masthead
+	{
+		border:5px solid green;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		padding-top:5px;
+	}
+	
+	.mainnav
+	{
+		border:5px solid green;
+		border-left:none;
+		border-right:none;
+	}
+	
+	
+	.content
+	{
+		width:50%;
+		float:left;
+		-webkit-column-count:2;
+		-webkit-column-gap:10px;
+		column-count:2;
+		column-gap:10px;
+		border-right-width:5px;
+	}
+	
+	.side
+	{
+		width:25%;
+		float:right;
+		border-left-width:5px;
+	}
+	
+	.footer
+	{
+		clear:both;
+        text-align: center;
+        color:gold;
+	}
+	
